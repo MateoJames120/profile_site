@@ -12,6 +12,8 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 
 import "./app.css";
+import { Header } from "./layout/header";
+import { Footer } from "./layout/footer";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -36,7 +38,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <Header />
         {children}
+        <Footer />
         <ScrollRestoration />
         <Scripts />
       </body>
