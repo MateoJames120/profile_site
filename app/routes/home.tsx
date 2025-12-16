@@ -4,7 +4,7 @@ import { Welcome } from "../welcome/welcome";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Mateo James" },
-    { name: "description", content: "Welcome" },
+    { name: "description", content: "Welcome to my profile website" },
   ];
 }
 
