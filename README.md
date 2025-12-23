@@ -1,4 +1,4 @@
-# Welcome to My Profile!
+# Welcome!
 
 ## Getting Started
 
